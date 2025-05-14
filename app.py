@@ -15,9 +15,9 @@ pyautogui.sleep(1)
 pyautogui.click(x=1200, y=668)
 pyautogui.sleep(1)
 pyautogui.click(x=773, y=801)
-pyautogui.write('03997819270')
+pyautogui.write('') #colocar cpf
 pyautogui.press('tab')
-pyautogui.write('Andre joas lima de araujo')
+pyautogui.write('Andre')
 pyautogui.press('tab')
 pyautogui.press('enter')
 pyautogui.click(x=897, y=654)
@@ -98,7 +98,7 @@ def preencher_dados_contribuinte():
 
     # Dados do contribuinte
     clicar(567, 592, clicks=2)  # Data de nascimento
-    escrever('12/09/2000')
+    escrever('12/09/2090')
 
     # Alteração de dados cadastrais
     clicar(509, 660)  # Sim
@@ -133,13 +133,13 @@ def preencher_dados_contribuinte():
     tab()
     escrever("Marabá")
     tab()
-    escrever("68503-170")
+    escrever("68701-921")
 
     # Contato
     tab(2)
     escrever("94")
     tab()
-    escrever("991540722")
+    escrever("1111235")
     tab(3)
     escrever("sebastiao@gmail.com")
 
